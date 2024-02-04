@@ -1,1 +1,3 @@
 # Recommender-System-for-Movie-Ratings-Data
+
+In this project, I first used low-rank matrix factorization to execute latent factor modeling of movie ratings data. Then, I constructed optimization algorithm. Next, by regularization to avoid overfitting, I got some good k and lambda values for building customer segmentation algorithms: K-Means Clustering and Hierarchical Clustering. Since K-Means Clustering method performed better, I utilized that to select a "representative" movie from each cluster for recommendation. Lastly, through applying logistic function, the ratings were strictly between 1 and 5, which improved the accuracy of analysis.
